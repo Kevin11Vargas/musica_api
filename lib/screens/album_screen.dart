@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:musica_api/widgets/album_silider.dart';
 import 'package:musica_api/widgets/card_swiper.dart';
 
 class AlbumScreen extends StatelessWidget {
@@ -21,7 +22,9 @@ class AlbumScreen extends StatelessWidget {
               ),
             ),
           ),
-          CardSwiper(), // Aquí se muestra el CardSwiper
+          CardSwiper(),
+          
+           // Aquí se muestra el CardSwiper
         ],
       ),
     );

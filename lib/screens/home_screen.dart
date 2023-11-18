@@ -4,6 +4,9 @@ import 'package:line_icons/line_icons.dart';
 import 'package:musica_api/screens/album_screen.dart';
 import 'package:musica_api/screens/artistas_screen.dart';
 import 'package:musica_api/screens/musica_screen.dart';
+import 'package:musica_api/widgets/album_silider.dart';
+import 'package:musica_api/widgets/artista_slider.dart';
+import 'package:musica_api/widgets/musica_slider.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -21,15 +24,16 @@ class _HomeScreenState extends State<HomeScreen> {
   );
 
   static const List<Widget> _widgetOptions = <Widget>[
-    Text(
+    //AlbumSlider(),
+   // ArtistaSlider(),
+   Text(
       'HOME',
       style: optionStyle,
     ),
     AlbumScreen(),
     ArtistasScreen(),
     Musica_Screen(),
-  ];
-
+];
 
 
   @override
